@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 25px;
+  background-color: #212121;
+  color: white;
+}
+h1,
+p {
+  text-align: center;
+}
+#controls {
+  text-align: center;
+}
+button {
+  font-size: 25px;
+  background-color: #1e1c1c;
+  color: white;
+  cursor: pointer;
+}
+#timer {
+  font-size: 50px;
+  text-align: center;
+}
+#status {
+  font-size: 30px;
+  text-align: center;
+}
