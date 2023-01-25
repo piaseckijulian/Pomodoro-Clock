@@ -16,6 +16,7 @@ button {
   background-color: #1e1c1c;
   color: white;
   cursor: pointer;
+  border: none;
 }
 #timer {
   font-size: 50px;
