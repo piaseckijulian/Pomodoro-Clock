@@ -9,6 +9,9 @@ let seconds = 0;
 let minutes = 25;
 let breakTime = false;
 
+let startCountdown
+let start = false;
+
 timerDiv.innerText = `${minutes}:0${seconds}`;
 
 const countdown = () => {
@@ -51,7 +54,6 @@ const countdown = () => {
     timerDiv.innerText = `${minutes}:${seconds}`;
   }
 };
-let start = false;
 startBtn.onclick = () => {
   if (start === false) {
     start = true;
